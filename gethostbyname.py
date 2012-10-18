@@ -10,7 +10,7 @@
 #-------------------------------------------------------------------------------
 import socket
 def main():
-    hostname = "chiphell.com"
+    hostname = "amazonaws.com"
     addr = socket.gethostbyname(hostname)
     print "the address of", hostname, "is", addr
 
